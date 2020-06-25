@@ -260,3 +260,10 @@ Match any space of length 2 or more
   log
   cog
 ```
+
+
+# Difference between square and parenthesis
+
+Square brackets are character classes and or with each one.
+
+Parenthesis are for matching groups.
