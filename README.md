@@ -1,4 +1,4 @@
-# Regex ( My favourites )
+# Regex ( Notes )
 
 
 # Global 
@@ -238,3 +238,23 @@ This is backreferencing the first group.
 ```
 
 Match any space of length 2 or more
+
+
+# Length of String Match
+
+```
+  .{5,}
+```
+
+
+
+# Conditional Expressions
+
+```
+  (?(condition)then|else)
+
+  ^(?(?=l)log|cog)
+
+  log
+  cog
+```
