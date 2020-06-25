@@ -205,3 +205,36 @@ Find expression A where expression B does not precede:
   (?<=B)A Positive Lookbehind ( Regex before should match and follow )
   (?<!B)A Negative Lookbehind ( Regex before should match and do not follow )
 ```
+
+
+# Non-capturing Groups ( Capturing usually with parenthesis )
+
+```
+  (?: )
+  \w+(?:email).com
+```
+
+
+# Backreferences
+
+
+```
+Match : abhishek bla bla abhishek
+(abhishek).+?(abhishek)
+
+or
+
+(abhishek).+?(\1)
+```
+
+This is backreferencing the first group.
+
+
+
+# Spaces
+
+```
+  \s{2,} 
+```
+
+Match any space of length 2 or more
