@@ -190,3 +190,18 @@ Find expression A where expression B does not precede:
 (?<!B)A
 
 ```
+
+
+# Lookahead ( Regex after should match and follow )
+
+```
+  A(?=B) Positive Lookahead ( Regex after should match and follow )
+  A(?!B) Negative Lookahead ( Regex after should match and do not follow )
+```
+
+# Lookbehind
+
+```
+  (?<=B)A Positive Lookbehind ( Regex before should match and follow )
+  (?<!B)A Negative Lookbehind ( Regex before should match and do not follow )
+```
