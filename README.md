@@ -255,6 +255,8 @@ Match any space of length 2 or more
 
   ^(?(?=l)log|cog)
 
+  (?=l) -> lookahead l
+
   log
   cog
 ```
